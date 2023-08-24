@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choose"
+    android:background="#E3D4EC">
+
+    <Button
+        android:id="@+id/over"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="13dp"
+
+        android:layout_marginEnd="179dp"
+        android:backgroundTint="#EF2F83"
+        android:text=">"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/gym" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="52dp"
+        android:text="We are here to give you the necessary instructions to follow from a diet, calorie calculation, and physical exercise"
+        android:textAlignment="center"
+        android:textColor="#330419"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="117dp"
+        android:text="O v e r  w e i g h t"
+        android:textColor="#A60C4F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loss" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="52dp"
+        android:text="We are here to give you the necessary instructions to follow from a diet, calorie calculation, and physical exercise"
+        android:textAlignment="center"
+        android:textColor="#330419"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="112dp"
+        android:text="W e i g h t  L o s s"
+        android:textColor="#A60C4F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="55dp"
+        android:text="C h o o s e  y o u r  G o a l !"
+        android:textColor="#283593"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/gym" />
+
+    <Button
+        android:id="@+id/loss"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="22dp"
+
+        android:layout_marginEnd="179dp"
+        android:backgroundTint="#EF2F83"
+        android:text=">"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/api_btn"
+        android:layout_width="196dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="108dp"
+        android:backgroundTint="#EF2F83"
+        android:text="Api Calling "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/over" />
+</androidx.constraintlayout.widget.ConstraintLayout>

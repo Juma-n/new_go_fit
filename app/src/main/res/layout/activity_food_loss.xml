@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food_loss"
+    android:background="#E3D4EC">
+
+
+    <TextView
+        android:id="@+id/tittel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="To Loss Weight You must DO"
+        android:textColor="#801B47"
+        android:textSize="26dp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tittel"
+        android:columnCount="2"
+        android:rowCount="3">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="90dp"
+
+                android:text="In the first week, the followed system is light and not strict.
+
+Breakfast: a complete protein meal that contains many minerals and fibers, and do not forget to drink an ample amount of water in advance to get a better result.
+
+
+Lunch: Eat an appropriate amount of protein and fiber to get a long satiety over a long period, and during the day drink water well.
+
+
+Dinner: Have a light meal to get a proper and undisturbed sleep
+In the first week, the followed system is light and not strict.
+
+Breakfast: a complete protein meal that contains many minerals and fibers, and do not forget to drink an ample amount of water in advance to get a better result.
+
+
+Lunch: Eat an appropriate amount of protein and fiber to get a long satiety over a long period, and during the day drink water well.
+
+
+Dinner: Have a light meal to get a proper and undisturbed sleep"
+                android:textAlignment="center"
+                android:textColor="#8C194B"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="94dp"
+                android:layout_height="75dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/diet" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:text="F i r s t  W e e k "
+                android:textColor="#7A1240"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+
+</RelativeLayout>
